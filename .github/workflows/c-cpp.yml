@@ -13,6 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Set up dependencies
+      run: sudo apt-get install -y autoconf automake
+    - name: Regenerate build system files
+      run: autoreconf --install
     - name: configure
       run: ./configure
     - name: make
