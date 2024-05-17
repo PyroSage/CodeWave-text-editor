@@ -414,7 +414,7 @@ autom4te.cache
 /compile
 /Makefile
 /aclocal.m4
-
+/.deps
 
 # Compiled object files
 *.o
