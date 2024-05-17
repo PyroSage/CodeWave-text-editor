@@ -413,6 +413,7 @@ autom4te.cache
 /missing
 /compile
 /Makefile
+/aclocal.m4
 
 
 # Compiled object files
