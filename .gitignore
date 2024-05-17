@@ -402,4 +402,22 @@ FodyWeavers.xsd
 *.exe
 main
 
+# Build directories
+/deps/
+autom4te.cache
+/config.log
+/config.status
+/compile
+/install-sh
+/depcomp
+/missing
+/compile
+/Makefile
+
+
+# Compiled object files
+*.o
+
+# General temporary files
+*.swp
 
